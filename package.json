@@ -1,0 +1,29 @@
+{
+  "name": "gifedit",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "bin": {
+    "gifedit": "index.js"
+  },
+  "author": "",
+  "preferGlobal": "true",
+  "license": "ISC",
+  "dependencies": {
+    "argv": "0.0.2",
+    "child_process": "^1.0.2",
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "gifify": "^2.4.0",
+    "gifshot": "^0.3.2",
+    "jsonfile": "^4.0.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "prompt": "^1.0.0",
+    "rimraf": "^2.6.2"
+  }
+}
